@@ -117,5 +117,16 @@ EXAMPLES:
   nmap -v -iR 10000 -Pn -p 80
 SEE THE MAN PAGE (https://nmap.org/book/man.html) FOR MORE OPTIONS AND EXAMPLES
 
+xmas
+sudo nmap -p 1-999 -sX <ip> -pn -vv
+
+tcp/syn
+sudo nmap -p1-5000 -sS 1<ip> -Pn -vv
+
+ftp-anano script
+nmap --script=ftp-anon -p 21 <ip> -vv
+
+
+
 
 
